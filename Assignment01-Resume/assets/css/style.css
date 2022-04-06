@@ -1,0 +1,103 @@
+* {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: rgba(214, 214, 214, 0.219);
+}
+
+body {
+  background-color: white;    
+  max-width: 600px;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.candidate-pic img {
+  border-radius: 50%;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.education,
+.projects,
+.technology {
+  margin: auto;
+  padding: 5px;
+}
+
+.header-h3 {
+  padding: 10px 0;
+}
+
+.education-table {
+  text-align: left;
+  width: 100%;
+}
+
+.table-header-row th {
+  background-color: rgba(214, 214, 214, 0.219);
+  padding: 5px 0;     
+}
+
+.table-body-row td {
+  padding: 0 2px;
+}
+
+.table-body a {
+  color: #000;
+  text-decoration: none;
+}
+
+.table-body tr:hover {
+  background-color: rgb(214, 214, 214);
+  transition: .1s linear;
+}
+
+.project-list {
+  padding: 0 10px 10px 20px;    
+}
+
+.project-title {
+  color: #000;
+  font-weight: bold;
+}
+
+.project-description {
+  padding: 5px 10px;
+}
+
+.technology-list {
+  padding: 0 10px 10px 20px;    
+}
+
+.items {
+  display: flex;
+  padding: 5px;
+}
+
+.items li {
+  background-color: rgb(54 52 52 / 22%);
+  border-radius: 5px;
+  list-style: none;
+  margin-right: 5px;  
+  padding: 2px 5px;  
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer span {
+  font-weight: bold;
+}
