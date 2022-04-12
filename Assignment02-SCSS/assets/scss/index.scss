@@ -118,6 +118,10 @@ body {
             gap: .5rem;
             text-decoration: none;
 
+            .icon-play {
+              font-size: 2rem;
+            }
+
           }
         }
       }
@@ -323,12 +327,18 @@ body {
 
           .icons {
             padding: 1rem;  
+
+            .icon-add,
+            .icon-link {
+              color: $pure-white;
+              font-size: 1.25rem;
+            }
           }
 
           .icons {
-            .link-icon:hover,
-            .add-icon:hover {
-              fill: $light-blue;
+            .icon-add:hover,
+            .icon-link:hover {
+              color: $light-blue;
             }
           }
         }

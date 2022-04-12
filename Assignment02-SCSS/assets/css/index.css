@@ -104,6 +104,9 @@ body .top-container .intro .details .buttons .btn-2 {
   gap: 0.5rem;
   text-decoration: none;
 }
+body .top-container .intro .details .buttons .btn-2 .icon-play {
+  font-size: 2rem;
+}
 body .top-container .intro .image {
   width: 50%;
 }
@@ -282,9 +285,14 @@ body .portfolio .portfolio-gallery .prtf .image-text .text {
 body .portfolio .portfolio-gallery .prtf .image-text .icons {
   padding: 1rem;
 }
-body .portfolio .portfolio-gallery .prtf .image-text .icons .link-icon:hover,
-body .portfolio .portfolio-gallery .prtf .image-text .icons .add-icon:hover {
-  fill: #47b2e4;
+body .portfolio .portfolio-gallery .prtf .image-text .icons .icon-add,
+body .portfolio .portfolio-gallery .prtf .image-text .icons .icon-link {
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+body .portfolio .portfolio-gallery .prtf .image-text .icons .icon-add:hover,
+body .portfolio .portfolio-gallery .prtf .image-text .icons .icon-link:hover {
+  color: #47b2e4;
 }
 body .portfolio .portfolio-gallery .prtf:hover .prtf-image {
   transform: scale(1.1);
