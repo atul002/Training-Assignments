@@ -16,7 +16,8 @@
     -->
     <title>Assignment - Bootstrap</title>
   </head>
-  <body>
+
+  <body class="body">
 
     <!--Header Starts-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -33,19 +34,19 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Services</a>
+              <a class="nav-link active" aria-current="page" href="#services">Services</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Departments</a>
+              <a class="nav-link active" aria-current="page" href="#departments">Departments</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Doctors</a>
+              <a class="nav-link active" aria-current="page" href="#counts">Doctors</a>
             </li>
   
             <li class="nav-item dropdown">
@@ -61,7 +62,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link active" href="#">Contact</a>
+              <a class="nav-link active" href="#footer">Contact</a>
             </li>
           </ul>
           
@@ -71,7 +72,7 @@
     <!--Header Ends-->
 
     <!--Section Hero Starts-->
-    <section id="hero" class="d-flex align-items-center">
+    <section id="hero" class="d-flex align-items-center container-fluid py-5">
       <div class="container">
         <h1 class="hero-heading-1">
           Welcome to Medilab
@@ -130,442 +131,436 @@
     <!--Section Hero Ends-->
 
 
-    <main id="main">
+    <section id="why-us" class="why-us py-5">
 
-      <section id="why-us" class="why-us py-5">
+      <div class="container">
+        <div class="row">
 
-        <div class="container">
-          <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="content rounded">
+              <h3 class="content-heading">Why Choose Medilab?</h3>
 
-            <div class="col-lg-4 d-flex align-items-stretch">
-              <div class="content">
-                <h3 class="content-heading">Why Choose Medilab?</h3>
+              <p class="content-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique inventore quod est deserunt architecto earum ex magni delectus a veritatis eos animi, eligendi doloremque? Dicta delectus earum dolores obcaecati ducimus.
+              </p>
 
-                <p class="content-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique inventore quod est deserunt architecto earum ex magni delectus a veritatis eos animi, eligendi doloremque? Dicta delectus earum dolores obcaecati ducimus.
-                </p>
-
-                <div class="text-center">
-                  <a class="learn-btn" href="" class="more-btn">Learn More</a>
-                </div>
+              <div class="text-center">
+                <a class="learn-btn py-2 px-4 rounded-pill" href="" class="more-btn">Learn More</a>
               </div>
             </div>
+          </div>
 
-            <div class="col-lg-8 d-flex align-items-stretch">
-              <div class="icon-boxes d-flex flex-column justify-content-center">
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
 
-                  <div class="row">
-                    <div class="col-xl-4 d-flex align-items-stretch">
-                      <div class="icon-box mt-4 mt-xl-0">
-                        <span class="icon-receipt_long bx"></span>
-                        <h4>Corporis voluptates sit</h4>
-                        <p>
-                          Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
-                        </p>
-                      </div>
-                    </div>
-                    
-                    <div class="col-xl-4 d-flex align-items-stretch">
-                      <div class="icon-box mt-4 mt-xl-0">
-                        <span class="icon-cube bx"></span>
-                        <h4>Ullamco laboris ladore pan</h4>
-                        <p>
-                          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        </p>
-                      </div>
-                    </div>
-                    
-                    <div class="col-xl-4 d-flex align-items-stretch">
-                      <div class="icon-box mt-4 mt-xl-0"> 
-                        <span class="icon-images bx"></span>                        <h4>Labore consequatur</h4>
-                        <p>
-                          Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere
-                        </p>
-                      </div>
+                <div class="row">
+                  <div class="col-xl-4 row-item d-flex align-items-stretch">
+                    <div class="icon-box mt-4 mt-xl-0 rounded container-fluid text-center">
+                      <span class="icon-receipt_long bx mb-4"></span>
+                      <h4>Corporis voluptates sit</h4>
+                      <p class="description">
+                        Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
+                      </p>
                     </div>
                   </div>
-              </div>
+                  
+                  <div class="col-xl-4 row-item d-flex align-items-stretch">
+                    <div class="icon-box mt-4 mt-xl-0 rounded container-fluid text-center">
+                      <span class="icon-cube bx mb-4"></span>
+                      <h4>Ullamco laboris ladore pan</h4>
+                      <p class="description">
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div class="col-xl-4 row-item d-flex align-items-stretch">
+                    <div class="icon-box mt-4 mt-xl-0 rounded container-fluid text-center"> 
+                      <span class="icon-images bx mb-4"></span>                        <h4>Labore consequatur</h4>
+                      <p class="description">
+                        Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere
+                      </p>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
 
-      <section id="about" class="about">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+    <section id="about" class="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <h3 class="heading mb-3">Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+            <p class="desc mb-3">Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+            
+            <div class="icon-box mt-4">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="icons icon-fingerprint"></span>
+              </div>
+              
+              <h4 class="title mb-2">
+                <a class="title-link" href="">Lorem Ipsum</a>
+              </h4>
+              
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
-
-            <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-              <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-              <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
-              
-              <div class="icon-box">
-                <div class="icon">
-                  <span class="icon-fingerprint"></span>
-                </div>
-                
-                <h4 class="title">
-                  <a href="">Lorem Ipsum</a>
-                </h4>
-                
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            
+            <div class="icon-box mt-4">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="icons icon-gift"></span>
               </div>
               
-              <div class="icon-box">
-                <div class="icon">
-                  <span class="icon-gift"></span>
-                </div>
-                
-                <h4 class="title">
-                  <a href="">Nemo Enim</a>
-                </h4>
-                
-                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <h4 class="title mb-2">
+                <a class="title-link" href="">Nemo Enim</a>
+              </h4>
               
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            
+            </div>
+            
+            <div class="icon-box mt-4">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="icons icon-react"></span>                
               </div>
               
-              <div class="icon-box">
-                <div class="icon">
-                  <span class="icon-react"></span>                
-                </div>
-                
-                <h4 class="title">
-                  <a href="">Dine Pad</a>
-                </h4>
-                
-                <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
-              </div>
+              <h4 class="title mb-2">
+                <a class="title-link" href="">Dine Pad</a>
+              </h4>
+              
+              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
 
 
-      <section id="counts" class="counts">
-        <div class="container">
-          <div class="row">
-            
-            <div class="col-lg-3 col-md-6">
-              <div class="count-box"> 
-                <span class="icon icon-user-md"></span>
-                <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="0" class="purecounter">85</span>
-                <p>Doctors</p>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-              <div class="count-box"> 
-                <span class="icon icon-building-o"></span>
-                <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="0" class="purecounter">18</span>
-                <p>Departments</p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-              <div class="count-box"> 
-                <span class="icon icon-lab"></span>
-                <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="0" class="purecounter">12</span>
-                <p>Research Labs</p>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-              <div class="count-box"> 
-                <span class="icon icon-award"></span>
-                <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="0" class="purecounter">150</span>
-                <p>Awards</p>
-              </div>
-            </div>
+    <section id="counts" class="counts">
+      <div class="container">
+        <div class="row">
           
-          </div>
-        </div>
-      </section>
-
-
-      <section id="services" class="services">
-        <div class="container">
-          <div class="section-title">
-            <h2>Services</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box container-fluid text-center"> 
+              <span class="icon icon-user-md"></span>
+              <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="0" class="purecounter">85</span>
+              <p class="mb-3">Doctors</p>
+            </div>
           </div>
           
-          <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="icon-box">
-                <div class="icon">
-                  <span class="icon-heartbeat"></span>
-                </div>
-                
-                <h4><a href="">Lorem Ipsum</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-              </div>
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box container-fluid text-center"> 
+              <span class="icon icon-building-o"></span>
+              <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="0" class="purecounter">18</span>
+              <p class="mb-3">Departments</p>
             </div>
-            
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-              <div class="icon-box">
-                <div class="icon">
-                  <span class="icon-health"></span>
-                </div>
-                
-                <h4><a href="">Sed ut perspiciatis</a></h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-              </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-              <div class="icon-box">
-                <div class="icon">
-                  <span class="icon-user-md"></span>
-                </div>
-                
-                <h4><a href="">Magni Dolores</a></h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-              </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
-                <div class="icon">
-                  <span class="icon-hour-glass"></span>
-                </div>
-                
-                <h4><a href="">Nemo Enim</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-              </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
-                <div class="icon">
-                  <span class="icon-wheelchair"></span>
-                </div>
-                
-                <h4><a href="">Dele cardo</a></h4>
-                <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-              </div>
-            </div>
+          </div>
 
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
-                <div class="icon">
-                  <span class="icon-file-text2"></span>
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box container-fluid text-center"> 
+              <span class="icon icon-lab"></span>
+              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="0" class="purecounter">12</span>
+              <p class="mb-3">Research Labs</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box container-fluid text-center"> 
+              <span class="icon icon-award"></span>
+              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="0" class="purecounter">150</span>
+              <p class="mb-3">Awards</p>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </section>
+
+
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-title pb-4 text-center">
+          <h2 class="service-heading mb-3 pb-3">Services</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box text-center">
+              <div class="icon d-flex align-items-center justify-content-center mb-3 my-0 mx-auto">
+                <span class="icons icon-heartbeat"></span>
+              </div>
+              
+              <h4><a class="heading-link" href="">Lorem Ipsum</a></h4>
+              <p class="icons-desc">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="icon-box text-center">
+              <div class="icon d-flex align-items-center justify-content-center mb-3 my-0 mx-auto">
+                <span class="icons icon-health"></span>
+              </div>
+              
+              <h4><a class="heading-link" href="">Sed ut perspiciatis</a></h4>
+              <p class="icons-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box text-center">
+              <div class="icon d-flex align-items-center justify-content-center mb-3 my-0 mx-auto">
+                <span class="icons icon-user-md"></span>
+              </div>
+              
+              <h4><a class="heading-link" href="">Magni Dolores</a></h4>
+              <p class="icons-desc">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box text-center">
+              <div class="icon d-flex align-items-center justify-content-center mb-3 my-0 mx-auto">
+                <span class="icons icon-hour-glass"></span>
+              </div>
+              
+              <h4><a class="heading-link" href="">Nemo Enim</a></h4>
+              <p class="icons-desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box text-center">
+              <div class="icon d-flex align-items-center justify-content-center mb-3 my-0 mx-auto">
+                <span class="icons icon-wheelchair"></span>
+              </div>
+              
+              <h4><a class="heading-link" href="">Dele cardo</a></h4>
+              <p class="icons-desc">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box text-center">
+              <div class="icon d-flex align-items-center justify-content-center mb-3 my-0 mx-auto">
+                <span class="icons icon-file-text2"></span>
+              </div>
+              
+              <h4><a class="heading-link" href="">Divera don</a></h4>
+              <p class="icons-desc">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="departments" class="departments">
+      <div class="container">
+        <div class="section-title pb-5 text-center">
+          <h2 class="dep-heading mb-3 pb-3">Departments</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </div>
+        
+        <div class="row gy-4">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item"> 
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Cardiology</a>
+              </li>
+              
+              <li class="nav-item"> 
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Neurology</a>
+              </li>
+              
+              <li class="nav-item"> 
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Hepatology</a>
+              </li>
+              
+              <li class="nav-item"> 
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Pediatrics</a>
+              </li>
+              
+              <li class="nav-item"> 
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Eye Care</a>
+              </li>
+            
+            </ul>
+          </div>
+          
+          <div class="col-lg-9">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Cardiology</h3>
+                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                  </div>
+                  
+                  <div class="col-lg-4 text-center order-1 order-lg-2"> 
+                    <img src="assets/images/departments-1.jpeg" alt="" class="img-fluid">
+                  </div>
                 </div>
-                
-                <h4><a href="">Divera don</a></h4>
-                <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              </div>
+              
+              <div class="tab-pane" id="tab-2">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Et blanditiis nemo veritatis excepturi</h3>
+                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                  </div>
+                  
+                  <div class="col-lg-4 text-center order-1 order-lg-2"> 
+                    <img src="assets/images/departments-2.jpeg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="tab-pane" id="tab-3">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                  </div>
+                  
+                  <div class="col-lg-4 text-center order-1 order-lg-2"> 
+                    <img src="assets/images/departments-3.jpeg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="tab-pane" id="tab-4">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
+                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
+                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                  </div>
+
+                  <div class="col-lg-4 text-center order-1 order-lg-2"> 
+                    <img src="assets/images/departments-4.jpeg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="tab-pane" id="tab-5">
+                <div class="row gy-4">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                  </div>
+
+                  <div class="col-lg-4 text-center order-1 order-lg-2"> 
+                    <img src="assets/images/departments-5.jpeg" alt="" class="img-fluid"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      <section id="faqs" class="faqs"> 
 
-      <section id="departments" class="departments">
-        <div class="container">
+        <div class="container text-center">
           <div class="section-title">
-            <h2>Departments</h2>
+            <h2 class="faqs-heading mb-3 pt-5 px-3 pb-3">Frequently Asked Questions</h2>
             <p>
               Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
             </p>
           </div>
-          
-          <div class="row gy-4">
-            <div class="col-lg-3">
-              <ul class="nav nav-tabs flex-column">
-                <li class="nav-item"> 
-                  <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Cardiology</a>
-                </li>
+
+          <div class="col-lg-10 faq-column m-auto p-3">
+
+            <div class="container-fluid collapse-1 clp">
+              <p class="collapse-button mt-3 mb-0 mx-auto">
+                <a class="btn btn-primary container-fluid" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                  Click to Open the collapsible drop down below
+                </a>
                 
-                <li class="nav-item"> 
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Neurology</a>
-                </li>
-                
-                <li class="nav-item"> 
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Hepatology</a>
-                </li>
-                
-                <li class="nav-item"> 
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Pediatrics</a>
-                </li>
-                
-                <li class="nav-item"> 
-                  <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Eye Care</a>
-                </li>
-              
-              </ul>
+              </p>
+              <div class="collapse" id="collapseExample1">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
             </div>
             
-            <div class="col-lg-9">
-              <div class="tab-content">
-                <div class="tab-pane active show" id="tab-1">
-                  <div class="row gy-4">
-                    <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Cardiology</h3>
-                      <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                      <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-                    </div>
-                    
-                    <div class="col-lg-4 text-center order-1 order-lg-2"> 
-                      <img src="assets/images/departments-1.jpeg" alt="" class="img-fluid">
-                    </div>
-                  </div>
-                </div>
+            <div class="container-fluid collapse-1 clp">
+              <p class="collapse-button mt-3 mb-0 mx-auto">
+                <a class="btn btn-primary container-fluid" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                  Click to Open the collapsible drop down below
+                </a>
                 
-                <div class="tab-pane" id="tab-2">
-                  <div class="row gy-4">
-                    <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Et blanditiis nemo veritatis excepturi</h3>
-                      <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                      <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
-                    </div>
-                    
-                    <div class="col-lg-4 text-center order-1 order-lg-2"> 
-                      <img src="assets/images/departments-2.jpeg" alt="" class="img-fluid">
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="tab-pane" id="tab-3">
-                  <div class="row gy-4">
-                    <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                      <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                      <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
-                    </div>
-                    
-                    <div class="col-lg-4 text-center order-1 order-lg-2"> 
-                      <img src="assets/images/departments-3.jpeg" alt="" class="img-fluid">
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="tab-pane" id="tab-4">
-                  <div class="row gy-4">
-                    <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                      <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                      <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
-                    </div>
-
-                    <div class="col-lg-4 text-center order-1 order-lg-2"> 
-                      <img src="assets/images/departments-4.jpeg" alt="" class="img-fluid">
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="tab-pane" id="tab-5">
-                  <div class="row gy-4">
-                    <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                      <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                      <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
-                    </div>
-
-                    <div class="col-lg-4 text-center order-1 order-lg-2"> 
-                      <img src="assets/images/departments-5.jpeg" alt="" class="img-fluid"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="faqs" class="faqs"> 
-
-          <div class="container text-center">
-            <div class="section-title">
-              <h2>Frequently Asked Questions</h2>
-              <p>
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
               </p>
+              <div class="collapse" id="collapseExample2">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
             </div>
 
-            <div class="col-lg-10 ">
-
-              <div class="container-fluid collapse-1 clp">
-                <p>
-                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
-                    Click to Open the collapsible drop down below
-                  </a>
-                  
-                </p>
-                <div class="collapse" id="collapseExample1">
-                  <div class="card card-body">
-                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                  </div>
-                </div>
-              </div>
-              
-              <div class="container-fluid collapse-1 clp">
-                <p>
-                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
-                    Click to Open the collapsible drop down below
-                  </a>
-                  
-                </p>
-                <div class="collapse" id="collapseExample2">
-                  <div class="card card-body">
-                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                  </div>
-                </div>
-              </div>
-
-              <div class="container-fluid collapse-1 clp">
-                <p>
-                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
-                    Click to Open the collapsible drop down below
-                  </a>
-                  
-                </p>
-                <div class="collapse" id="collapseExample3">
-                  <div class="card card-body">
-                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                  </div>
+            <div class="container-fluid collapse-1 clp">
+              <p class="collapse-button mt-3 mb-0 mx-auto">
+                <a class="btn btn-primary container-fluid" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                  Click to Open the collapsible drop down below
+                </a>
+                
+              </p>
+              <div class="collapse" id="collapseExample3">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <footer id="footer" class="footer">
-          <div class="container d-md-flex p-3 my-2 mx-auto text-sm-center justify-content-between">
-            <div class="col-lg-4">
-              &copy; Copyright <b>Medilab.</b> All Rights Reserved.
-              <br>
-              Designed in Bootstrap.
-            </div>
+      <footer id="footer" class="footer">
+        <div class="container d-md-flex p-3 my-2 mx-auto text-sm-center justify-content-between">
+          <div class="col-lg-4 footer-col p-0">
+            &copy; Copyright <b>Medilab.</b> All Rights Reserved.
+            <br>
+            Designed in Bootstrap.
+          </div>
 
-            <ul class="col-lg-4 d-flex align-items-center text-md-right justify-content-center">
-              <li class="d-flex align-items-center justify-content-center">
-                <span class="icon-facebook"></span>
-              </li>
+          <ul class="social-icons col-lg-4 d-flex align-items-center text-md-right justify-content-center p-0 gap-2">
+            <li class="icons d-flex align-items-center justify-content-center p-2">
+              <span class="icon-facebook"></span>
+            </li>
 
-              <li class="d-flex align-items-center justify-content-center">
-                <span class="icon-instagram"></span>
-              </li>
+            <li class="icons d-flex align-items-center justify-content-center p-2">
+              <span class="icon-instagram"></span>
+            </li>
 
-              <li class="d-flex align-items-center justify-content-center">
-                <span class="icon-whatsapp"></span>
-              </li>
+            <li class="icons d-flex align-items-center justify-content-center p-2">
+              <span class="icon-whatsapp"></span>
+            </li>
 
-              <li class="d-flex align-items-center justify-content-center">
-                <span class="icon-telegram"></span>
-              </li>
+            <li class="icons d-flex align-items-center justify-content-center p-2">
+              <span class="icon-telegram"></span>
+            </li>
 
-              <li class="d-flex align-items-center justify-content-center">
-                <span class="icon-twitter"></span>
-              </li>
-              
-            </ul>
-          </div> 
-
-          
-
-        </footer>
-    </main>
+            <li class="icons d-flex align-items-center justify-content-center p-2">
+              <span class="icon-twitter"></span>
+            </li>
+            
+          </ul>
+        </div> 
+      </footer>
   </body>
 </html>
