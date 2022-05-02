@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/iconmoon.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+		<title>JavaScript - Calendar</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="calendar">
+				<div class="month">
+					<span id="prev" class="icon-arrow-left arrow prev"></span>
+
+					<div class="date">
+						<h1 class="date-heading" id="date-heading"></h1>
+						<p class="date-detail" id="date-detail"></p>
+					</div>
+
+					<span id="next" class="icon-arrow-right arrow next"></span>
+				</div>
+
+				<div class="weekdays">
+					<div class="w-day">SUN</div>
+					<div class="w-day">MON</div>
+					<div class="w-day">TUE</div>
+					<div class="w-day">WED</div>
+					<div class="w-day">THU</div>
+					<div class="w-day">FRI</div>
+					<div class="w-day">SAT</div>
+				</div>
+
+				<div class="modal-container" id="modal-container">
+					<div class="modal" id="modal">
+						<h1 id="modal-date"></h1>
+						<form name="form" action="Javascript:saveNote()">
+							<label for="note">
+								<span class="label-heading">Enter Note:</span>
+								<input
+									name="note"
+									type="text"
+									id="note"
+									placeholder="Add Note"
+								/>
+							</label>
+
+							<input id="close" class="close-btn" type="submit" value="Save" />
+						</form>
+					</div>
+				</div>
+				<div class="days" id="days"></div>
+			</div>
+		</div>
+
+		<script src="assets/scripts/script.js"></script>
+	</body>
+</html>

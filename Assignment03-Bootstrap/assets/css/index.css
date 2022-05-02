@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*Defining color variables*/
+.body .navbar {
+  background-color: #fff;
+  box-shadow: 0 0.1rem 0.9rem rgba(25, 119, 204, 0.1019607843);
+}
+.body .navbar .navbar-brand {
+  color: #2c4964;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.body .navbar .nav-link {
+  font-size: 0.9rem;
+  font-weight: initial;
+}
+.body .navbar .nav-link:hover {
+  border-bottom: 1px solid #1977cc;
+  color: #1977cc;
+}
+.body #hero {
+  background: url(../images/hero-bg.jpeg) top center fixed;
+  height: 90vh;
+  margin-bottom: -200px;
+}
+.body #hero .container {
+  color: #2c4964;
+}
+.body #hero .container .hero-heading-2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.body .why-us .content {
+  background-color: #1977cc;
+  color: #fff;
+  padding: 2rem;
+}
+.body .why-us .content .content-heading, .body .why-us .content .content-text {
+  margin-bottom: 2rem;
+}
+.body .why-us .content .learn-btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-decoration: none;
+}
+.body .why-us .icon-box {
+  background-color: #fff;
+  box-shadow: 0 0.1rem 0.9rem rgba(0, 0, 0, 0.1);
+  padding: 3rem 2rem;
+}
+.body .why-us .icon-box .bx {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #1977cc;
+  display: inline-block;
+  line-height: 1;
+  text-rendering: auto;
+  text-transform: none;
+}
+.body .why-us .description {
+  color: #848484;
+}
+.body .about .video-box {
+  background: url(../images/about.jpeg) center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+.body .about .icon-boxes .heading {
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #2c4964;
+}
+.body .about .icon-boxes .icon-box .icon {
+  border: 2px solid #8dc2f1;
+  border-radius: 50%;
+  float: left;
+  height: 64px;
+  width: 64px;
+  transition: 0.5s;
+}
+.body .about .icon-boxes .icon-box .icon .icons {
+  color: #1977cc;
+  font-size: 2rem;
+}
+.body .about .icon-boxes .icon-box .icon:hover {
+  background: #1977cc;
+  border-color: #1977cc;
+}
+.body .about .icon-boxes .icon-box .icon:hover .icons {
+  color: #fff;
+}
+.body .about .icon-boxes .icon-box .title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 85px;
+}
+.body .about .icon-boxes .icon-box .title .title-link {
+  color: #343a40;
+  text-decoration: none;
+}
+.body .about .icon-boxes .icon-box .description {
+  font-size: 0.9rem;
+  font-weight: normal;
+  margin-left: 85px;
+}
+.body .counts {
+  background-color: #f1f7fd;
+  padding: 4.5rem 0 4rem;
+}
+.body .counts .count-box {
+  background: #fff;
+  padding: 1.6rem 1.6rem 1.4rem 1.6rem;
+  position: relative;
+}
+.body .counts .count-box .icon {
+  font-size: 1.5rem;
+  font-weight: normal;
+  align-items: center;
+  background: #1977cc;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-flex;
+  height: 3rem;
+  justify-content: center;
+  left: 50%;
+  position: absolute;
+  top: -1.4rem;
+  transform: translateX(-50%);
+  width: 3rem;
+}
+.body .counts .count-box .purecounter {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #343a40;
+  display: block;
+}
+.body .services {
+  padding: 5rem 0;
+}
+.body .services .service-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c4964;
+  position: relative;
+}
+.body .services .icon-box {
+  border: 1px solid #d5e1ed;
+  padding: 9rem 1rem;
+  transition: all ease-in-out 0.3s;
+}
+.body .services .icon-box .icon {
+  font-size: 2rem;
+  font-weight: normal;
+  background: #1977cc;
+  border-radius: 0.25rem;
+  color: #fff;
+  height: 64px;
+  transition: all 0.3s ease-out 0s;
+  transform-style: preserve-3d;
+  width: 64px;
+}
+.body .services .icon-box .heading-link {
+  color: #2c4964;
+  text-decoration: none;
+}
+.body .services .icon-box:hover {
+  background-color: #1977cc;
+  border-color: #1977cc;
+}
+.body .services .icon-box:hover .icon {
+  background: #fff;
+}
+.body .services .icon-box:hover .icon .icons {
+  color: #1977cc;
+}
+.body .services .icon-box:hover .heading-link,
+.body .services .icon-box:hover .icons-desc {
+  color: #fff;
+}
+.body .departments {
+  padding: 5rem 0;
+}
+.body .departments .dep-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c4964;
+  position: relative;
+}
+.body .departments .nav {
+  border: 0;
+}
+.body .departments .nav .nav-item .nav-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 0;
+  border-radius: 0;
+  border-right: 2px solid #f1f7fd;
+  color: #2c4964;
+  padding: 12px 15px 12px 0;
+  transition: 0.3s;
+}
+.body .departments .nav .nav-item .nav-link.active {
+  border-color: #1977cc;
+  color: #1977cc;
+}
+.body .faqs {
+  background-color: #f1f7fd;
+}
+.body .faqs .faqs-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c4964;
+  position: relative;
+}
+.body .footer .icons {
+  background-color: #1977cc;
+  border-radius: 50%;
+  color: #fff;
+  list-style: none;
+}
+
+/*# sourceMappingURL=index.css.map */
