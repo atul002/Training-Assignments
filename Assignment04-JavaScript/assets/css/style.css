@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  align-items: center;
+  background-color: #12121f;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+.container .calendar {
+  background-color: #222227;
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+  height: 90vh;
+  width: 80rem;
+}
+.container .calendar .month {
+  align-items: center;
+  background-color: #167e56;
+  display: flex;
+  height: 12rem;
+  justify-content: space-between;
+  padding: 0 2rem;
+  width: 100%;
+  text-align: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+.container .calendar .month .arrow {
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+.container .calendar .month .date-heading {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.container .calendar .month .date-detail {
+  font-size: 1.5rem;
+}
+.container .calendar .weekdays {
+  align-items: center;
+  display: flex;
+  height: 5rem;
+  padding: 0 0.4rem;
+  width: 100%;
+}
+.container .calendar .weekdays .w-day {
+  align-items: center;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  justify-content: center;
+  letter-spacing: 0.1rem;
+  width: 11.3142857143rem;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+.container .calendar .days {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.2rem;
+  width: 100%;
+}
+.container .calendar .days .dates {
+  align-items: center;
+  display: flex;
+  font-size: 1.4rem;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.3rem;
+  height: 5rem;
+  width: 10.7714285714rem;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+.container .calendar .days .dates .note-desc {
+  display: -webkit-box;
+  max-width: 5ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.container .calendar .days .dates:hover:not(.today) {
+  background-color: #262626;
+  border: 0.2rem solid #777;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.container .calendar .days .dates:nth-child(7n+1) {
+  background-color: #800080;
+}
+.container .calendar .days .dates:nth-child(7n) {
+  background-color: #12121f;
+}
+.container .calendar .days .prev-date,
+.container .calendar .days .next-date {
+  opacity: 0.5;
+}
+.container .calendar .days .today {
+  background-color: #167e56;
+}
+.container .calendar .days .today .add-btn {
+  background-color: #800080;
+  color: #fff;
+  display: none;
+  margin: 1rem;
+  padding: 0.2rem 0.5rem;
+}
+.container .calendar .days .today:hover .add-btn {
+  display: block;
+}
+.container .modal-container {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.container .modal-container .modal {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
+  color: #000000;
+  max-width: 100%;
+  padding: 1rem 3rem;
+  width: 400px;
+  text-align: center;
+}
+.container .modal-container .modal form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.container .modal-container .modal form label {
+  padding: 1rem;
+}
+.container .modal-container .modal form .close-btn {
+  max-width: 5rem;
+  margin: 0 auto;
+}
+.container .modal-container .label-heading {
+  font-size: 1.5rem;
+}
+.container .modal-container.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
