@@ -1,0 +1,16 @@
+@import '../../assets/scss/colors.scss';
+
+.friend-container {
+	background-color: $white;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin: 0;
+	padding: 1rem;
+
+	.friend {
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+		padding: 0.5rem;
+		width: 45%;
+		gap: 1rem;
+	}
+}

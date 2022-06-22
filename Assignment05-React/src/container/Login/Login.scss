@@ -1,0 +1,40 @@
+@import '../../assets/scss/colors.scss';
+
+body {
+	align-items: center;
+	background-image: linear-gradient(
+		to bottom,
+		#d16ba5,
+		#bd63a9,
+		#a75cac,
+		#8c58ae,
+		#6d54af,
+		#6254b5,
+		#5454bc,
+		#4055c2,
+		#4e58d1,
+		#5d5bdf,
+		#6d5ded,
+		#7f5ffb
+	);
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	min-height: 100vh;
+	padding: 0;
+
+	.login-container {
+		background-color: $white;
+		padding: 4rem 1rem;
+
+		.form {
+			min-width: 250px;
+		}
+
+		.signup {
+			display: block;
+		}
+	}
+}
