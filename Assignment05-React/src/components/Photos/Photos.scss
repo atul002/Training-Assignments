@@ -1,0 +1,21 @@
+@import '../../assets/scss/colors.scss';
+
+.photo-wrapper {
+	background-color: $white;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin: 0;
+	max-height: 100vh;
+	overflow-y: scroll;
+	padding: 1rem;
+
+	.photo {
+		padding: 1rem;
+		width: 30%;
+
+		img {
+			max-width: 100%;
+			height: 200px;
+		}
+	}
+}

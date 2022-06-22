@@ -1,0 +1,19 @@
+@import '../../assets/scss/colors.scss';
+
+.social-icons {
+	gap: 1rem;
+	margin: 0 auto;
+	padding: 1rem;
+	text-align: center;
+
+	.item {
+		list-style: none;
+		.link {
+			display: block;
+
+			.icon {
+				color: $white;
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+.large {
+	&:not(:hover) {
+		width: 175px;
+		padding: 0.5rem;
+		transition: 1s;
+	}
+
+	&:hover {
+		width: 175px;
+		padding: 0;
+		transition: 1s;
+	}
+}
+
+.small {
+	width: 50px;
+	padding: 0.25rem;
+}
+
+.medium {
+	width: 80px;
+	padding: 0.25rem;
+}
